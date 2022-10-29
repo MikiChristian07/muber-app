@@ -1,4 +1,3 @@
-
 /* eslint-disable import/extensions */
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
@@ -11,7 +10,7 @@ const dbConn = () => {
             logger.info('Connected to the database');
         })
         .catch((error) => {
-            logger.info('Error connecting to the databse');
+            logger.info('Error connecting to the database');
             logger.error(error);
         });
 };
